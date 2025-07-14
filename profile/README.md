@@ -19,7 +19,7 @@ One MCP for the Web. Easily search, crawl, navigate, and extract websites withou
 
 ### Data Feeds
 
-<a href="https://brightdata.com/products/web-scraper"> <img width="600px" height="auto" align="right" src="https://github.com/user-attachments/assets/87cfab12-ce6b-4d77-b2f5-59e67f3326fd" /> </a>
+<a href="https://brightdata.com/products/web-scraper"> <img width="600px" height="auto" align="right" src="https://github.com/user-attachments/assets/4dc73d27-4e71-4c1f-9f2d-b209f9438238" /> </a>
 
 Web Scraper APIs  
 Pre-built scrapers for major platforms including Amazon, Google, LinkedIn, and 100+ other sites.
@@ -28,7 +28,7 @@ Pre-built scrapers for major platforms including Amazon, Google, LinkedIn, and 1
 
 ### Datasets & Data Products
 
-<a href="https://brightdata.com/products/datasets"> <img align="right" width="600px" height="auto" src="https://github.com/user-attachments/assets/2b9f3dc5-79c9-4850-b3e9-63a3f0ee832b" /> </a>
+<a href="https://brightdata.com/products/datasets"> <img align="right" width="600px" height="auto" src="https://github.com/user-attachments/assets/83b4757a-a23a-4640-8377-3fed02080f9b" /> </a>
 
 Ready-to-Use Datasets  
 Access pre-collected, structured datasets from major websites updated on regular basis. Perfect for AI/ML training and business intelligence.
@@ -37,7 +37,7 @@ Access pre-collected, structured datasets from major websites updated on regular
 
 ### Browser Automation
 
-<a href="https://brightdata.com/products/scraping-browser"> <img align="right" width="600px" height="auto" src="https://github.com/user-attachments/assets/7289ae43-5b29-4d79-b469-94e263cc09b2" /> </a>
+<a href="https://brightdata.com/products/scraping-browser"> <img align="right" width="600px" height="auto" src="https://github.com/user-attachments/assets/0ed6b1e7-2af2-4085-8b1a-81770f62b42f" /> </a>
 
 Browser Automation Tools  
 Headless browser automation with built-in proxy rotation, CAPTCHA solving, and anti-detection features.
