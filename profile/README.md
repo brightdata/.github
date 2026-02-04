@@ -11,13 +11,15 @@
 
 ### Bright Data's MCP server
 
- 
+[![Bright Data MCP](https://gh-card.dev/repos/brightdata/brightdata-mcp.svg)](https://github.com/brightdata/brightdata-mcp)
+
 One MCP for the Web. Easily search, crawl, navigate, and extract websites without getting blocked. Ideal for discovering and retrieving structured insights from any public source - effortlessly and ethically.
 
 <br clear="right"/>
 
 ### Web Unlocker API
 
+[![luminati-io/bright-data-web-unlocker-nodejs-project - GitHub](https://gh-card.dev/repos/luminati-io/bright-data-web-unlocker-nodejs-project.svg)](https://github.com/luminati-io/bright-data-web-unlocker-nodejs-project)
 
 Access public web pages effortlessly with our advanced Web Unlocker platform. Our cutting-edge technology actively monitors and solves website blocking techniques in real-time, employing automated features like browser fingerprinting, CAPTCHA solving, IP rotations, request retries and more for seamless access across any site.
 
@@ -25,6 +27,7 @@ Access public web pages effortlessly with our advanced Web Unlocker platform. Ou
 
 ### SERP API
 
+[![brightdata/bright-data-serp-api-python-project - GitHub](https://gh-card.dev/repos/brightdata/bright-data-serp-api-python-project.svg)](https://github.com/brightdata/bright-data-serp-api-python-project)
 
 Bright Data SERP API provides real user’s results in high volumes for all the major search engines. It enables a wide variety of tailored search parameters, and your search results data will be delivered in JSON or HTML output. Focus on extracting the data you need without worrying about getting blocked, and with the most accuracy and speed.
 
@@ -32,6 +35,7 @@ Bright Data SERP API provides real user’s results in high volumes for all the 
 
 ### Data Feeds
 
+[![brightdata/bright-data-scrape-chatgpt-search-nodejs-project - GitHub](https://gh-card.dev/repos/brightdata/bright-data-scrape-chatgpt-search-nodejs-project.svg)](https://github.com/brightdata/bright-data-scrape-chatgpt-search-nodejs-project)
 
 Access up-to-date information as it’s published online, or request targeted data collections delivered via API,
 webhook, or cloud storage. Out-of-the-box tools support data extraction, transformation, and archive access,
@@ -41,6 +45,7 @@ minimizing engineering work for your team.
 
 ### Browser API
 
+[![luminati-io/bright-data-scraping-browser-nodejs-playwright-project - GitHub](https://gh-card.dev/repos/luminati-io/bright-data-scraping-browser-nodejs-playwright-project.svg)](https://github.com/luminati-io/bright-data-scraping-browser-nodejs-playwright-project)
 
 Headless browser automation with built-in proxy rotation, CAPTCHA solving, and anti-detection features.
 
