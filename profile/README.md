@@ -1,76 +1,154 @@
+<div align="center">
+  <a href="https://brightdata.com">
+    <img src="https://github.com/user-attachments/assets/5831f9ab-5aea-4f1d-a2d3-c85874ba0eeb" alt="Bright Data" height="100">
+  </a>
 
-<div align="center"> <a href="https://brightdata.com"> <img src="https://github.com/user-attachments/assets/5831f9ab-5aea-4f1d-a2d3-c85874ba0eeb" alt="Bright Data Logo" height="100"> </a> <h3>The world's #1 web data platform</h3> <p>Discover, access, extract, and interact with any public website. Get structured, reliable, real-time or historical data at petabyte-scale. Ready for any model, pipeline, or workflow.</p> <a href="https://brightdata.com/?hs_signup=1"> <img src="https://img.shields.io/badge/🚀_Get_Started-blue?style=for-the-badge" alt="Get Started"> </a> <a href="https://docs.brightdata.com"> <img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation"> </a> </div> <br> 
+  <h1>The web data layer for AI agents</h1>
+
+  <p>
+    <strong>Production-grade access to the open web.</strong><br>
+    Search, scrape, browse, and extract from any public site - at any scale, in any geo, without getting blocked.
+  </p>
+
+  <p>
+    <a href="https://brightdata.com/?hs_signup=1"><img src="https://img.shields.io/badge/Get_Started-2563EB?style=for-the-badge" alt="Get Started"></a>
+    <a href="https://docs.brightdata.com"><img src="https://img.shields.io/badge/Documentation-0F172A?style=for-the-badge" alt="Documentation"></a>
+    <a href="https://github.com/brightdata/brightdata-mcp"><img src="https://img.shields.io/badge/MCP_Server-16A34A?style=for-the-badge" alt="MCP Server"></a>
+  </p>
+
+  <p>
+    <a href="https://github.com/brightdata/brightdata-mcp"><img src="https://img.shields.io/github/stars/brightdata/brightdata-mcp?style=social" alt="MCP Stars"></a>
+  </p>
+</div>
+
+---
+
+## Quickstart
+
+Connect Bright Data to Claude Code, Cursor, or any MCP-compatible client in one line:
+
+```bash
+claude mcp add --transport http brightdata https://mcp.brightdata.com/mcp?token=YOUR_API_TOKEN
+```
+
+Prefer raw HTTP? Hit the API directly:
+
+```bash
+curl -X POST https://api.brightdata.com/request \
+  -H "Authorization: Bearer YOUR_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"zone": "unblocker", "url": "https://example.com", "format": "raw"}'
+```
+
+Or use the SDK:
+
+```python
+from brightdata import SyncBrightDataClient
+
+with SyncBrightDataClient(api_token="YOUR_API_TOKEN") as client:
+    result = client.scrape_url(url="https://example.com")
+    print(result)
+```
+
+> **Free for agents.** MCP and CLI users get 5,000 requests/month - no setup beyond the API key. [Grab one →](https://brightdata.com/cp/start)
 
 ---
 
 ## Why Bright Data?
 
-**Need web data at scale?** Bright Data powers the world's largest companies with reliable, compliant, and high-quality web data. Our infrastructure handles billions of requests daily, ensuring you get the data you need, when you need it.
+AI agents are only as good as the data they can reach.
 
-## Our Core Ecosystem
+We're the web data infrastructure behind some of the world's most demanding AI systems — billions of requests a day, every public site, every geography, no breakage. While other tools work great until the page actually has a CAPTCHA, geo-block, or anti-bot stack, we handle the parts of the web that break everyone else.
 
-### Bright Data's MCP server
+If your agent needs to read the open web in production, this is the layer underneath it.
 
-[![Bright Data MCP](https://gh-card.dev/repos/brightdata/brightdata-mcp.svg)](https://github.com/brightdata/brightdata-mcp)
+---
 
-One MCP for the Web. Easily search, crawl, navigate, and extract websites without getting blocked. Ideal for discovering and retrieving structured insights from any public source - effortlessly and ethically.
+## The ecosystem
+
+### Bright Data MCP — The flagship for AI agents
+
+[![brightdata/brightdata-mcp - GitHub](https://gh-card.dev/repos/brightdata/brightdata-mcp.svg)](https://github.com/brightdata/brightdata-mcp)
+
+One MCP for the web. Search, navigate, extract, and unlock any public site from inside Claude, Cursor, Codex, or any MCP client. Used by 150K+ agent calls per week.
 
 <br clear="right"/>
 
-### Web Unlocker API
+### Bright Data CLI — Web data, from your terminal
+
+[![brightdata/cli - GitHub](https://gh-card.dev/repos/brightdata/cli.svg)](https://github.com/brightdata/cli)
+
+Give coding agents real-time web data without leaving the shell. Install once, and Claude Code, Codex, and Gemini CLI can search, scrape, and crawl autonomously.
+
+```bash
+npx skills add brightdata/cli
+```
+
+<br clear="right"/>
+
+### Web Unlocker API — Get past anything
 
 [![luminati-io/bright-data-web-unlocker-nodejs-project - GitHub](https://gh-card.dev/repos/luminati-io/bright-data-web-unlocker-nodejs-project.svg)](https://github.com/luminati-io/bright-data-web-unlocker-nodejs-project)
 
-Access public web pages effortlessly with our advanced Web Unlocker platform. Our cutting-edge technology actively monitors and solves website blocking techniques in real-time, employing automated features like browser fingerprinting, CAPTCHA solving, IP rotations, request retries and more for seamless access across any site.
+The site you're trying to scrape is fighting back? We solve fingerprinting, CAPTCHAs, IP rotation, retries, and anti-bot stacks in real time — single API call, you get the page.
 
 <br clear="right"/>
 
-### SERP API
+### SERP API — Search results, structured
 
 [![brightdata/bright-data-serp-api-python-project - GitHub](https://gh-card.dev/repos/brightdata/bright-data-serp-api-python-project.svg)](https://github.com/brightdata/bright-data-serp-api-python-project)
 
-Bright Data SERP API provides real user’s results in high volumes for all the major search engines. It enables a wide variety of tailored search parameters, and your search results data will be delivered in JSON or HTML output. Focus on extracting the data you need without worrying about getting blocked, and with the most accuracy and speed.
+Real user search results from Google, Bing, and every major engine. Returns clean JSON or HTML, with full geo and device targeting. Ranked exactly the way a real person would see them.
 
 <br clear="right"/>
 
-### Data Feeds
-
-[![brightdata/bright-data-scrape-chatgpt-search-nodejs-project - GitHub](https://gh-card.dev/repos/brightdata/bright-data-scrape-chatgpt-search-nodejs-project.svg)](https://github.com/brightdata/bright-data-scrape-chatgpt-search-nodejs-project)
-
-Access up-to-date information as it’s published online, or request targeted data collections delivered via API,
-webhook, or cloud storage. Out-of-the-box tools support data extraction, transformation, and archive access,
-minimizing engineering work for your team.
-
-<br clear="right"/>
-
-### Browser API
+### Browser API — Headless browsers that don't get blocked
 
 [![luminati-io/bright-data-scraping-browser-nodejs-playwright-project - GitHub](https://gh-card.dev/repos/luminati-io/bright-data-scraping-browser-nodejs-playwright-project.svg)](https://github.com/luminati-io/bright-data-scraping-browser-nodejs-playwright-project)
 
-Headless browser automation with built-in proxy rotation, CAPTCHA solving, and anti-detection features.
+Drop-in replacement for Playwright and Puppeteer with proxy rotation, CAPTCHA solving, and anti-detection built in. Render JavaScript-heavy sites at scale, the way an agent needs to.
 
 <br clear="right"/>
 
-## Enterprise Solutions
+### Datasets & Data Feeds — The web, pre-extracted
 
-- **🏢 Enterprise Support** - Dedicated account management and 24/7 support
-- **⚡ High-Performance Infrastructure** - Handle millions of requests with 99.9% uptime
-- **🔒 Compliance & Security** - GDPR, SOC2, and industry-standard security measures
-- **📊 Custom Solutions** - Tailored data collection and integration services
+[![brightdata/bright-data-scrape-chatgpt-search-nodejs-project - GitHub](https://gh-card.dev/repos/brightdata/bright-data-scrape-chatgpt-search-nodejs-project.svg)](https://github.com/brightdata/bright-data-scrape-chatgpt-search-nodejs-project)
 
-## Built by Industry Leaders
+Skip the scraping infrastructure entirely. Subscribe to fresh structured datasets — products, jobs, profiles, news, reviews — delivered via API, webhook, S3, or your warehouse of choice.
 
-We're the team behind the world's largest proxy network. Our mission is to make web data accessible, reliable, and compliant for businesses of all sizes.
+<br clear="right"/>
 
 ---
 
-<div align="center"> <p> <strong>Ready to unlock the web's potential?</strong><br> <a href="https://brightdata.com/cp/start">Start your free trial</a> and get 2$ </p> <br>
+## What you can build
 
- <a href="https://docs.brightdata.com">Read the docs</a> • <a href="https://brightdata.com/contact">Contact sales</a>
+A few patterns we see most often:
 
+- **Research agents** that browse, read, and synthesize across hundreds of sources
+- **Price intelligence** workflows that monitor SKUs across regions in real time
+- **Lead enrichment** pipelines that pull live company, role, and contact signals
+- **Training data** collection at petabyte scale for foundation models
+- **Vertical agents** for travel, real estate, e-commerce, and finance that need fresh inventory
+
+Browse [example apps and integrations →](https://demos.brightdata.com)
+
+---
+
+## Integrations
+
+We're built into the agent stack you're already using:
+
+LangChain · LangGraph · LlamaIndex · CrewAI · Vercel AI SDK · n8n · Make · Zapier · IBM watsonx · AWS Bedrock · Snowflake · Databricks
+
+[See all integrations →](https://docs.brightdata.com/integrations)
+
+---
+
+<div align="center">
+  <p>
+    <strong>Ready to plug your agent into the open web?</strong><br>
+    <a href="https://brightdata.com/cp/start">Start free</a> · <a href="https://docs.brightdata.com">Read the docs</a> · <a href="https://github.com/brightdata/brightdata-mcp">Star the MCP</a>
+  </p>
+  <br>
+  <sub>Made by the team behind the world's best web access layer for AI.</sub>
 </div>
-
----
-
-
-<div align="center"> <sub>Made with ❤️ by the Bright Data team</sub> </div>
