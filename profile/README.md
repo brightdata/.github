@@ -120,7 +120,7 @@ curl -X POST https://api.brightdata.com/request \
 
 ### Bright Data MCP — The flagship for AI agents
 
-[![brightdata/brightdata-mcp - GitHub](https://gh-card.dev/repos/brightdata/brightdata-mcp.svg)](https://github.com/brightdata/brightdata-mcp)
+[brightdata/brightdata-mcp - GitHub](https://github.com/brightdata/brightdata-mcp)
 
 One MCP for the web. Search, navigate, extract, and unlock any public site from inside Claude Code, Cursor, Codex, or any MCP-compatible client.
 
@@ -128,7 +128,7 @@ One MCP for the web. Search, navigate, extract, and unlock any public site from 
 
 ### Bright Data CLI — Web data, from your terminal
 
-[![brightdata/cli - GitHub](https://gh-card.dev/repos/brightdata/cli.svg)](https://github.com/brightdata/cli)
+[brightdata/cli - GitHub](https://github.com/brightdata/cli)
 
 Give coding agents real-time web data without leaving the shell. Native to Claude Code, Codex, and Gemini CLI.
 
@@ -136,7 +136,7 @@ Give coding agents real-time web data without leaving the shell. Native to Claud
 
 ### Bright Data Skills — Drop-in capabilities for skill-aware agents
 
-[![brightdata/skills - GitHub](https://gh-card.dev/repos/brightdata/skills.svg)](https://github.com/brightdata/skills)
+[brightdata/skills - GitHub](https://github.com/brightdata/skills)
 
 Pre-built skills that let any skill-aware agent ecosystem use Bright Data without writing integration code.
 
@@ -144,7 +144,7 @@ Pre-built skills that let any skill-aware agent ecosystem use Bright Data withou
 
 ### Python SDK — Typed client for every product
 
-[![brightdata/bright-data-sdk-python - GitHub](https://gh-card.dev/repos/brightdata/bright-data-sdk-python.svg)](https://github.com/brightdata/bright-data-sdk-python)
+[brightdata/bright-data-sdk-python - GitHub](https://github.com/brightdata/bright-data-sdk-python)
 
 Async- and sync-friendly Python client covering Web Unlocker, SERP API, Browser API, and Datasets.
 
@@ -152,7 +152,7 @@ Async- and sync-friendly Python client covering Web Unlocker, SERP API, Browser 
 
 ### Node.js SDK — Typed client for JavaScript runtimes
 
-[![brightdata/bright-data-sdk-js - GitHub](https://gh-card.dev/repos/brightdata/bright-data-sdk-js.svg)](https://github.com/brightdata/bright-data-sdk-js)
+[brightdata/bright-data-sdk-js - GitHub](https://github.com/brightdata/bright-data-sdk-js)
 
 First-class TypeScript types, works in Node, Bun, and Deno.
 
@@ -160,7 +160,7 @@ First-class TypeScript types, works in Node, Bun, and Deno.
 
 ### Quickstart Templates — Runnable starters
 
-[![brightdata/bright-data-quickstart-templates - GitHub](https://gh-card.dev/repos/brightdata/bright-data-quickstart-templates.svg)](https://github.com/brightdata/bright-data-quickstart-templates)
+[brightdata/bright-data-quickstart-templates - GitHub](https://github.com/brightdata/bright-data-quickstart-templates)
 
 Production-ready boilerplates across LangChain, LlamaIndex, CrewAI, Vercel AI SDK, n8n, Make, and the rest of the modern agent stack. Clone, set the API key, ship.
 
